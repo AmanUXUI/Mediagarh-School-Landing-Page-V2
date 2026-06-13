@@ -75,7 +75,7 @@ export default function App() {
   }, [displayText, isDeleting, phraseIndex, typingSpeed]);
 
   return (
-    <div className="min-h-screen relative flex flex-col justify-between selection:bg-purple-100 selection:text-indigo-900 pb-12 bg-[#f4f3ef]">
+    <div className="min-h-screen relative flex flex-col justify-between selection:bg-purple-100 selection:text-indigo-900 bg-[#f4f3ef] overflow-x-hidden">
       
       {/* Premium Navigation Header */}
       <header className="w-full max-w-7xl mx-auto px-6 md:px-12 py-8 flex justify-between items-center gap-4">
@@ -158,7 +158,7 @@ export default function App() {
 
               </div>
               <span className="text-xs text-slate-500 font-medium tracking-wide mt-1">
-                Talk to us: <span className="font-bold text-slate-800 font-mono">+91 93589 34407</span> or message us directly
+                Message us directly to get started
               </span>
             </div>
 

@@ -134,7 +134,7 @@ export default function GrowthSupport() {
       <div className="max-w-4xl mx-auto px-6 text-center mt-24 sm:mt-32 pb-12 relative z-10 animate-fadeIn">
         <h2 className="text-4xl sm:text-6xl lg:text-[72px] font-black tracking-tighter text-[#eae7df] leading-[1.05] font-sans">
           More Than Marketing.<br />
-          <span className="text-[#446ef0]">A Growth Partner.</span>
+          <span className="premium-text-gradient">A Growth Partner.</span>
         </h2>
         
         <p className="text-[#a1a1aa] text-sm sm:text-base max-w-2xl mx-auto leading-relaxed mt-6 font-sans font-light">

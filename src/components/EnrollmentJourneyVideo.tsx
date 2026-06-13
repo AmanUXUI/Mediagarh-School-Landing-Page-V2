@@ -20,20 +20,23 @@ export default function EnrollmentJourneyVideo({ onLetsTalkClick }: EnrollmentJo
       </div>
 
       <div className="max-w-6xl mx-auto relative z-10 pt-6">
-        {/* Video Box */}
-        <div className="aspect-video w-full rounded-[24px] overflow-hidden shadow-2xl bg-black border-8 border-white relative">
-          <iframe 
-            src="https://streamable.com/e/8r8hkk?autoplay=1&loop=1&muted=1&controls=0" 
-            title="School Enrollment System Video Walkthrough"
-            frameBorder="0" 
-            width="100%" 
-            height="100%" 
-            allow="autoplay; fullscreen" 
-            allowFullScreen
-            className="absolute inset-0 w-full h-full pointer-events-none scale-[1.04]"
-          />
-          {/* Transparent overlay shield to capture any pointer events and prevent controls from showing */}
-          <div className="absolute inset-0 z-20 bg-transparent" />
+        {/* Video Box Wrapper */}
+        <div className="w-[95%] mx-auto rounded-[24px] bg-white p-2 sm:p-2.5 shadow-2xl relative">
+          {/* Inner 16:9 aspect box without any boundary border constraints */}
+          <div className="aspect-video w-full rounded-2xl overflow-hidden bg-black relative">
+            <iframe 
+              src="https://streamable.com/e/8r8hkk?autoplay=1&loop=1&muted=1&controls=0" 
+              title="School Enrollment System Video Walkthrough"
+              frameBorder="0" 
+              width="100%" 
+              height="100%" 
+              allow="autoplay; fullscreen" 
+              allowFullScreen
+              className="absolute inset-0 w-full h-full pointer-events-none scale-100"
+            />
+            {/* Transparent overlay shield to capture any pointer events and prevent controls from showing */}
+            <div className="absolute inset-0 z-20 bg-transparent" />
+          </div>
         </div>
 
         {/* Row 1: "School Marketing Requires a Different Approach" and "LET'S TALK ↗" button exactly like screenshot */}
@@ -56,7 +59,7 @@ export default function EnrollmentJourneyVideo({ onLetsTalkClick }: EnrollmentJo
         {/* Row 2: Centered Subhead Spacer */}
         <div className="mt-20 text-center">
           <p className="text-[10px] sm:text-xs font-extrabold tracking-[0.25em] text-slate-300 uppercase select-none">
-            TRUSTED BY 100+ SCHOOLS OF ALL SIZES
+            Trusted by 100+ schools across India
           </p>
         </div>
 
