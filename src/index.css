@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-cal: "Cal Sans", system-ui, sans-serif;
+  
+  --color-brand-primary: #1e3a8a; /* Indigo/deep blue */
+  --color-brand-secondary: #c084fc; /* Purple/lavender */
+  --color-brand-accent: #446ef0; /* SkoolReady blue */
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #f7f6f3; /* Elegant warm off-white as seen in screenshot */
+    color: #1e293b;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom smooth transitions */
+.transition-all-custom {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom gradient for hero text */
+.gradient-text {
+  background: linear-gradient(135deg, #2563eb 0%, #7c3aed 50%, #db2777 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brand-gradient-text {
+  background: linear-gradient(135deg, #43c4f2 0%, #2a7cc2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.premium-text-gradient {
+  background: linear-gradient(90deg, #F3F6FA 0%, #3CA2D9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
