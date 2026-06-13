@@ -159,7 +159,7 @@ export default function AdmissionGrowthEcosystem({ onLetsTalkClick }: AdmissionG
                       <h4 className="text-2xl font-extrabold text-slate-950 group-hover:text-[#1d4ed8] transition-colors leading-tight">
                         {card.title}
                       </h4>
-                      <p className="text-slate-600 text-xs sm:text-[13px] leading-relaxed font-sans font-medium">
+                      <p className="text-slate-600 text-base sm:text-[17px] leading-relaxed font-sans font-medium">
                         {card.description}
                       </p>
                     </div>
@@ -226,7 +226,7 @@ export default function AdmissionGrowthEcosystem({ onLetsTalkClick }: AdmissionG
                       <h4 className="text-xl font-extrabold text-[#0038a8] leading-tight group-hover:text-[#1d4ed8] transition-colors">
                         {card.title}
                       </h4>
-                      <p className="text-slate-600 text-[12.5px] leading-relaxed font-sans font-medium">
+                      <p className="text-slate-600 text-[16.5px] leading-relaxed font-sans font-medium">
                         {card.description}
                       </p>
                     </div>

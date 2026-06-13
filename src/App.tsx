@@ -111,7 +111,7 @@ export default function App() {
             </div>
 
             {/* Majestic Hero Headline (matching photo layout precisely) */}
-            <h1 className="font-cal font-[500] text-4xl sm:text-6xl md:text-[85px] lg:text-[105px] tracking-[0.5px] leading-[1.1] lg:leading-[116px] text-slate-900 max-w-5xl text-center">
+            <h1 className="font-cal font-[500] text-[46px] sm:text-6xl md:text-[85px] lg:text-[105px] tracking-[0.5px] leading-[1.1] lg:leading-[116px] text-slate-900 max-w-5xl text-center">
               <span className="text-[#446ef0] block drop-shadow-xs">Admission Growth</span>
               <span className="text-[#446ef0] block drop-shadow-xs">for Schools</span>
             </h1>
